@@ -18,7 +18,7 @@ export const Button = (props) => {
 ## How to use
 
 ```
-import { Button } from "../../components/Button";
+import { Button } from "./components/Button";
 
 <Button
     type="button"
