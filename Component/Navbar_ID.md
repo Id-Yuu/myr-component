@@ -22,7 +22,7 @@ export default NavBar;
 ## How to use
 
 ```
-import NavBar from "../components/Navbar";
+import NavBar from "./components/Navbar";
 
 <NavBar>
     <NavBar.link href="gi" text="Genshin Impact" />
