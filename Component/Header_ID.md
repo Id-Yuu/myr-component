@@ -34,7 +34,7 @@ export default Header;
 ## How to Use
 
 ```
-import Header from "../components/Header";
+import Header from "./components/Header";
 
 <Header redirectTo="/">
   <Header.title>Home</Header.title>
