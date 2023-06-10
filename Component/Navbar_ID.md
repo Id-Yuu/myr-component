@@ -1,4 +1,6 @@
 ## Create component
+required to install
+- [`react-router-dom`](https://www.npmjs.com/package/react-router-dom)
 
 ```
 import React from "react";
