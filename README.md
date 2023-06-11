@@ -1,2 +1,2 @@
-# myr-component
-My React Component and more... for starter project
+# My React Component
+Code for starter project
