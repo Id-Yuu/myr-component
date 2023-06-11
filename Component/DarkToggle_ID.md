@@ -69,3 +69,4 @@ const { toggleTheme, theme } = useContext(ThemeContext);
 </Button>
 ```
 
+![btn](./img/btn-dark.gif)
