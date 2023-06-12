@@ -48,11 +48,11 @@ import { useFetch } from "./hooks/useFetch";
 export const HomePage = () => {
   const { data, isPending, error } = useFetch();
   return (
-    <MainPage>
-      <h1>gi Home</h1>
+    <div>
+      <h1>Show Data</h1>
       {isPending ? <div>Loading...</div> : <Card list={data} />}
       {error && <div>{error}</div>}
-    </MainPage>
+    </div>
   );
 };
 ```
