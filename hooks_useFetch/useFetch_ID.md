@@ -44,7 +44,7 @@ import { Card } from './component/card';
 import { useFetch } from "./hooks/useFetch";
 
 export const HomePage = () => {
-  const { data, error, loading } = useFetchs();
+  const { data, error, loading } = useFetch();
   return (
     <div>
       <h1>Show Data Repo Github</h1>
